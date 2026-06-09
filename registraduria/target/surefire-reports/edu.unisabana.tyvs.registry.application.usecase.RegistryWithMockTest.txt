@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: edu.unisabana.tyvs.registry.application.usecase.RegistryWithMockTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.363 s -- in edu.unisabana.tyvs.registry.application.usecase.RegistryWithMockTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.635 s -- in edu.unisabana.tyvs.registry.application.usecase.RegistryWithMockTest
