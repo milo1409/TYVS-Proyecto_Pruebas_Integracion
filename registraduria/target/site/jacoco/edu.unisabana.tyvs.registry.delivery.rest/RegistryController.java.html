@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RegistryController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Registry Integration Tests</a> &gt; <a href="index.source.html" class="el_package">edu.unisabana.tyvs.registry.delivery.rest</a> &gt; <span class="el_source">RegistryController.java</span></div><h1>RegistryController.java</h1><pre class="source lang-java linenums">package edu.unisabana.tyvs.registry.delivery.rest;
+
+import edu.unisabana.tyvs.registry.application.usecase.Registry;
+import edu.unisabana.tyvs.registry.delivery.rest.dto.PersonRequest;
+import edu.unisabana.tyvs.registry.domain.model.Person;
+import edu.unisabana.tyvs.registry.domain.model.RegisterResult;
+import edu.unisabana.tyvs.registry.infrastructure.persistence.RegistryRepository;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping(&quot;/registry&quot;)
+public class RegistryController {
+
+    private final Registry registry;
+
+<span class="fc" id="L16">    public RegistryController(RegistryRepository repository) throws Exception {</span>
+<span class="fc" id="L17">        repository.initSchema();</span>
+<span class="fc" id="L18">        this.registry = new Registry(repository);</span>
+<span class="fc" id="L19">    }</span>
+
+    @PostMapping(&quot;/register&quot;)
+    public RegisterResult register(@RequestBody PersonRequest request) throws Exception {
+<span class="fc" id="L23">        Person person = new Person(</span>
+<span class="fc" id="L24">                request.getName(),</span>
+<span class="fc" id="L25">                request.getId(),</span>
+<span class="fc" id="L26">                request.getAge(),</span>
+<span class="fc" id="L27">                request.getGender(),</span>
+<span class="fc" id="L28">                request.isAlive()</span>
+        );
+
+<span class="fc" id="L31">        return registry.registerVoter(person);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

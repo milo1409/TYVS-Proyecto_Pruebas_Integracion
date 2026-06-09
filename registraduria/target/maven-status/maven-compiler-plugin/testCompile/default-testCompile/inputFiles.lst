@@ -1,0 +1,5 @@
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\test\java\edu\unisabana\tyvs\registry\application\usecase\FakeRegistryRepository.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\test\java\edu\unisabana\tyvs\registry\application\usecase\RegistryTest.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\test\java\edu\unisabana\tyvs\registry\application\usecase\RegistryWithFakeRepositoryTest.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\test\java\edu\unisabana\tyvs\registry\application\usecase\RegistryWithMockTest.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\test\java\edu\unisabana\tyvs\registry\delivery\rest\RegistryControllerTest.java

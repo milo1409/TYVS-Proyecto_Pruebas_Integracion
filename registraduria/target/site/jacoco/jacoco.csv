@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Registry Integration Tests,edu.unisabana.tyvs.registry.delivery.rest.dto,PersonRequest,18,18,0,0,7,7,1,6,1,6
+Registry Integration Tests,edu.unisabana.tyvs.registry.infrastructure.persistence,RegistryRecord,33,0,0,0,12,0,6,0,6,0
+Registry Integration Tests,edu.unisabana.tyvs.registry.infrastructure.persistence,RegistryRepository,0,108,0,2,0,32,0,7,0,6
+Registry Integration Tests,edu.unisabana.tyvs.registry.delivery.rest,RegistryController,0,30,0,0,0,11,0,2,0,2
+Registry Integration Tests,edu.unisabana.tyvs.registry.domain.model,Gender,0,21,0,0,0,4,0,1,0,1
+Registry Integration Tests,edu.unisabana.tyvs.registry.domain.model,Person,0,33,0,0,0,12,0,6,0,6
+Registry Integration Tests,edu.unisabana.tyvs.registry.domain.model,RegisterResult,0,33,0,0,0,6,0,1,0,1
+Registry Integration Tests,edu.unisabana.tyvs.registry,RegistryApplication,5,3,0,0,2,1,1,1,1,1
+Registry Integration Tests,edu.unisabana.tyvs.registry.application.usecase,Registry,0,46,3,11,0,13,3,6,0,2

@@ -1,0 +1,10 @@
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\application\port\out\RegistryRepositoryPort.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\application\usecase\Registry.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\delivery\rest\dto\PersonRequest.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\delivery\rest\RegistryController.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\domain\model\Gender.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\domain\model\Person.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\domain\model\RegisterResult.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\infrastructure\persistence\RegistryRecord.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\infrastructure\persistence\RegistryRepository.java
+D:\Personal\MAESTRIA ASOFTWARE\Testing\Actividad4\TYVS-Proyecto_Pruebas_Integracion\registraduria\src\main\java\edu\unisabana\tyvs\registry\RegistryApplication.java

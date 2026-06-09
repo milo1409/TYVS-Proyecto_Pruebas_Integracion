@@ -1,0 +1,5 @@
+edu\unisabana\tyvs\registry\application\usecase\FakeRegistryRepository.class
+edu\unisabana\tyvs\registry\application\usecase\RegistryTest.class
+edu\unisabana\tyvs\registry\delivery\rest\RegistryControllerTest.class
+edu\unisabana\tyvs\registry\application\usecase\RegistryWithFakeRepositoryTest.class
+edu\unisabana\tyvs\registry\application\usecase\RegistryWithMockTest.class
