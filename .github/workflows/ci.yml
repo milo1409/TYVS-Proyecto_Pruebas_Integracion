@@ -15,6 +15,10 @@ jobs:
   build-test-coverage:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: registraduria
+
     steps:
       - name: Descargar codigo fuente
         uses: actions/checkout@v4
@@ -39,4 +43,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: reporte-cobertura-jacoco
-          path: target/site/jacoco/
+          path: registraduria/target/site/jacoco/
